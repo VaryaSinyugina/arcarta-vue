@@ -1,11 +1,15 @@
 <script>
 import Header from './components/Header.vue'
 import AboutUsContent from './components/AboutUsContent.vue'
+import ImageContent from './components/ImageContent.vue'
+import PartnersContent from './components/PartnersContent.vue'
 
 export default{
   components:{
     Header,
-    AboutUsContent
+    AboutUsContent,
+    ImageContent,
+    PartnersContent
   }
 }
 </script>
@@ -13,6 +17,8 @@ export default{
 <template>
   <Header />
   <AboutUsContent />
+  <PartnersContent />
+  <ImageContent />
 </template>
 
 <style scoped></style>
