@@ -8,7 +8,19 @@
             <div class="info">
                 <h1 class="title">Rely on us</h1>
                 <p>Our Customer Due Diligence platform helps you avoid fines or losing clients due to AML while protecting you from cybercrime.</p>
-                <v-btn class="btn-learn-more">Learn More</v-btn>
+                <div class="d-flex justify-center">
+                   <v-btn 
+                    color="#C47344"
+                    rounded="xl"
+                    variant="flat"
+                    width="158"
+                    height="47"
+                    class="text-none mt-3"
+                    >
+                    Learn More
+                    </v-btn> 
+                </div>
+                
             </div>
         </div> 
     </div>
@@ -57,12 +69,12 @@
     width: 51px;
     height: 25px;
     opacity: 1;
-    margin: 0;
+
 }
 
 .tag-art-report{
-    width: 188;
-    height: 25;
+    width: 188px;
+    height: 25px;
     opacity: 1;
     border-radius: 20px;
     background-color: #F9EDE2;
@@ -72,7 +84,7 @@
     line-height: 25px;
     letter-spacing: 0%;
     text-align: center;
-    margin: 0;
+    margin-left: -10px;
 }
 
 .title{
@@ -95,18 +107,5 @@
     text-align: center;
     width: 524px;
     height: 99px;
-}
-
-.btn-learn-more{
-    color: #ffffff;
-    background-color: #C47344;
-    border-radius: 50px;
-    width: 158px;
-    height: 47px;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-self: center;
-    justify-content: center;
 }
 </style>

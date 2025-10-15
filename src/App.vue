@@ -3,13 +3,15 @@ import Header from './components/Header.vue'
 import AboutUsContent from './components/AboutUsContent.vue'
 import ImageContent from './components/ImageContent.vue'
 import PartnersContent from './components/PartnersContent.vue'
+import CardsContent from './components/CardsContent.vue'
 
 export default{
   components:{
     Header,
     AboutUsContent,
     ImageContent,
-    PartnersContent
+    PartnersContent,
+    CardsContent
   }
 }
 </script>
@@ -19,6 +21,7 @@ export default{
   <AboutUsContent />
   <PartnersContent />
   <ImageContent />
+  <CardsContent />
 </template>
 
 <style scoped></style>

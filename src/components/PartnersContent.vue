@@ -13,10 +13,13 @@
             <img src="@/assets/img/cristea-img.png" alt="Cristea Roberts Gallary">
         </div>
     </div>
-    <div>
+    <div class="d-flex justify-center">
         <v-btn
-            class="btn-arrow-wia"
+            class="text-none font-weight-black mt-5"
+            size="large"
             append-icon="mdi-arrow-right-circle"
+            variant="text"
+            color="#C47344"
         >
             What is Arcarta?
         </v-btn>

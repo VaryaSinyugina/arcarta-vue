@@ -10,7 +10,15 @@
             <a href="#">FAQs</a>
             <a href="#">Contact</a>
             <a href="#">Login</a>
-            <v-btn class="btn-get-started">Get Started</v-btn>
+            <v-btn
+             color="#C47344"
+             rounded="xl"
+             variant="flat"
+             width="129"
+             height="47"
+             class="text-none mt-1">
+             Get Started
+            </v-btn>
         </div>
     </header>
 </template>
@@ -55,18 +63,5 @@ header{
     margin-top: 18px;
     margin-right: 45px;
     text-decoration: none;
-}
-
-.btn-get-started{
-    color: #ffffff;
-    background-color: #C47344;
-    border-radius: 50px;
-    width: 129px;
-    height: 47px;
-    margin-top: 7px;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
 }
 </style>
