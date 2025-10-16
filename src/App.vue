@@ -4,6 +4,7 @@ import AboutUsContent from './components/AboutUsContent.vue'
 import ImageContent from './components/ImageContent.vue'
 import PartnersContent from './components/PartnersContent.vue'
 import CardsContent from './components/CardsContent.vue'
+import Footer from './components/Footer.vue'
 
 export default{
   components:{
@@ -11,7 +12,8 @@ export default{
     AboutUsContent,
     ImageContent,
     PartnersContent,
-    CardsContent
+    CardsContent,
+    Footer
   }
 }
 </script>
@@ -22,6 +24,7 @@ export default{
   <PartnersContent />
   <ImageContent />
   <CardsContent />
+  <Footer />
 </template>
 
 <style scoped></style>
