@@ -1,6 +1,7 @@
 body{
   font-family: 'Roboto', sans-serif;
-  background: #FDF4EC;
-  background: linear-gradient(180deg, rgba(249, 238, 227, 1) 0%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 1) 100%);
-  
+  /* background: #FFF8EE;
+  background: linear-gradient(180deg,rgba(255, 248, 238, 1) 25%, rgba(255, 255, 255, 1) 100%); */
+  background: #FFF8EE;
+  background: linear-gradient(180deg,rgba(255, 248, 238, 1) 0%, rgba(249, 238, 227, 1) 35%, rgba(255, 255, 255, 1) 85%);
 }
