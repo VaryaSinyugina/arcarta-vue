@@ -4,6 +4,7 @@ import AboutUsContent from './components/AboutUsContent.vue'
 import ImageContent from './components/ImageContent.vue'
 import PartnersContent from './components/PartnersContent.vue'
 import CardsContent from './components/CardsContent.vue'
+import QuizContent from './components/QuizContent.vue'
 import UpdatesContent from './components/UpdatesContent.vue'
 import Footer from './components/Footer.vue'
 
@@ -14,6 +15,7 @@ export default{
     ImageContent,
     PartnersContent,
     CardsContent,
+    QuizContent,
     UpdatesContent,
     Footer
   }
@@ -26,6 +28,7 @@ export default{
   <PartnersContent />
   <ImageContent />
   <CardsContent />
+  <QuizContent />
   <UpdatesContent />
   <Footer />
 </template>
